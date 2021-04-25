@@ -1,0 +1,1216 @@
+#otaaa {
+    margin-top: 10px;
+    display: flex;
+    #kichik,
+    #kichik2 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #BCBCBC;
+        text-decoration: none;
+    }
+}
+
+.selected-products {
+    max-width: 84vw !important;
+    .tafsiya {
+        margin-top: 15px;
+        width: 100%;
+        padding-bottom: 10px;
+        .title {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 15px;
+            .btnClear {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: #ffffff;
+                background: #007cff;
+                border-radius: 3px;
+                width: 198px;
+                height: 48px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .title-form {
+            form {
+                border: 1px solid #bcbcbc;
+                box-sizing: border-box;
+                border-radius: 5px;
+                background: #fff;
+                padding: 5px 10px;
+                display: flex;
+                align-items: center;
+                position: relative;
+                margin-right: -15px;
+                label {
+                    cursor: pointer;
+                    img {
+                        margin-top: 17%;
+                    }
+                }
+                input {
+                    height: 30px;
+                    margin-left: 5px;
+                    width: 77%;
+                    border: none;
+                    outline: none;
+                    &::placeholder {
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #000000;
+                        font-weight: 400;
+                    }
+                }
+                .form-x {
+                    position: absolute;
+                    right: 10px;
+                    cursor: pointer;
+                }
+            }
+            .gap {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 23px;
+                margin: 10px 0;
+            }
+        }
+        .row {
+            margin-top: 10px;
+        }
+        .card {
+            .pin-sel {
+                width: 18px;
+                height: 18px;
+                position: absolute;
+                top: 10.3px;
+                right: 15.41px;
+                cursor: pointer;
+            }
+        }
+        .colcha {
+            &:hover {
+                box-shadow: 5px 5px 20px #e5e5e5, -5px -5px 20px #e5e5e5;
+                transition: 0.5s;
+            }
+            width: 18.55%;
+            margin: 0.7%;
+            .card {
+                padding: 20px;
+                border: none !important;
+                height: 100%;
+                position: relative;
+                .heart-ic {
+                    position: absolute;
+                    top: 35px;
+                    right: 13px;
+                    width: 20px;
+                    height: 20px;
+                    -webkit-mask-image: url("../img/Heart.svg");
+                    mask-image: url("../img/Heart.svg");
+                    opacity: 0;
+                    transition: 0.3s;
+                    &:hover {
+                        background: #007cff;
+                    }
+                }
+                .chegirmaa {
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #ffffff;
+                    background: #ff0000;
+                    padding: 5px;
+                    width: 84px;
+                    position: absolute;
+                    top: 20px;
+                    left: 18px;
+                    opacity: 0;
+                    transition: 0.3s;
+                }
+                .pin {
+                    position: absolute;
+                    top: 10px;
+                    right: 13px;
+                    width: 20px;
+                    height: 20px;
+                    display: inline-block;
+                    background-color: #a5a5a5;
+                    cursor: pointer;
+                    -webkit-mask-image: url("../img/bigScreen.svg");
+                    mask-image: url("../img/bigScreen.svg");
+                    mask: {
+                        position: center center;
+                        size: 75%;
+                        repeat: no-repeat;
+                    }
+                    -webkit-mask: {
+                        position: center center;
+                        size: 75%;
+                        repeat: no-repeat;
+                    }
+                    &:hover {
+                        background: #007cff;
+                    }
+                }
+                .otaa {
+                    // border: 1px solid red;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 20px;
+                    padding: 30px;
+                    .img-w {
+                        // border: 1px solid blue;
+                        width: 90%;
+                    }
+                }
+                .card-body {
+                    padding: 10px;
+                    .model {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #A5A5A5;
+                    }
+                    .name {
+                        margin-top: 9px;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 23px;
+                    }
+                    .stars {
+                        margin-top: 12px;
+                        img {
+                            margin: 2px;
+                            &:first-child {
+                                margin-left: 0;
+                            }
+                        }
+                    }
+                }
+                .c-footer {
+                    padding: 0px 10px;
+                    .sum {
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 23px;
+                        color: #000000;
+                        // margin: 0 0 10px 10px;
+                    }
+                    .cartt {
+                        position: absolute;
+                        bottom: 10px;
+                        right: 10px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+                        padding: 5px;
+                        transition: 0.3s;
+                        .img {
+                            width: 18px;
+                            height: 18px;
+                            display: inline-block;
+                            background-color: #a5a5a5;
+                            cursor: pointer;
+                            mask-image: url("../img/cart.svg");
+                            -webkit-mask-image: url("../img/cart.svg");
+                            mask: {
+                                position: center center;
+                                size: 90%;
+                                repeat: no-repeat;
+                            }
+                            -webkit-mask: {
+                                position: center center;
+                                size: 90%;
+                                repeat: no-repeat;
+                            }
+                        }
+                        &:hover {
+                            background: #007cff;
+                            .img {
+                                background: #fff;
+                            }
+                        }
+                        .modal {
+                            padding-right: 0;
+                            .modal-dialog {
+                                margin: 4.75rem auto !important;
+                                max-width: 800px !important;
+                                .modal-header {
+                                    padding: 1rem 1rem 0 1rem !important;
+                                    button {
+                                        border: none;
+                                        outline: none;
+                                    }
+                                    border: none;
+                                }
+                                .modal-body {
+                                    padding-bottom: 1.5rem !important;
+                                    .first-section {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: space-between;
+                                        .row {
+                                            // margin-top: 30px;
+                                            .col-4 {
+                                                cursor: pointer;
+                                                border-color: transparent !important;
+                                                img {
+                                                    width: 100%;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .title {
+                                        font-weight: 500;
+                                        font-size: 24px;
+                                        line-height: 28px;
+                                        display: flex;
+                                        justify-content: start !important;
+                                        color: black !important;
+                                    }
+                                    .about {
+                                        display: flex;
+                                        .content {
+                                            padding: 10px !important;
+                                            font-size: 12px;
+                                            line-height: 14px;
+                                            color: #868686;
+                                            background: #ededed;
+                                            margin: 10px 5px;
+                                            &:first-child {
+                                                margin-left: 0px;
+                                            }
+                                            &:last-child {
+                                                margin-right: 0px;
+                                            }
+                                            div {
+                                                font-weight: bold;
+                                                font-size: 14px;
+                                                line-height: 16px;
+                                                color: #000000;
+                                            }
+                                        }
+                                    }
+                                    .description {
+                                        font-size: 16px;
+                                        line-height: 24px;
+                                        /* or 150% */
+                                        color: #868686;
+                                        width: 88%;
+                                    }
+                                    .price {
+                                        margin: 15px 0;
+                                        font-weight: 900;
+                                        font-size: 24px;
+                                        line-height: 28px;
+                                        color: #000000;
+                                        span {
+                                            font-size: 16px;
+                                            line-height: 19px;
+                                            /* identical to box height */
+                                            text-decoration-line: line-through;
+                                            color: #a5a5a5;
+                                        }
+                                    }
+                                    .m-footer {
+                                        display: flex;
+                                        .myform {
+                                            display: flex;
+                                            button,
+                                            input {
+                                                width: 40px;
+                                                height: 40px;
+                                                margin: 0 !important;
+                                                border: none;
+                                                outline: none;
+                                                background: #e3e3e3;
+                                                text-align: center;
+                                                font-size: 16px;
+                                                line-height: 19px;
+                                            }
+                                        }
+                                        .btn1,
+                                        .btn2 {
+                                            height: 40px;
+                                            padding: 10px;
+                                            border-radius: 0;
+                                            font-weight: 600;
+                                            font-size: 14px;
+                                            line-height: 19px;
+                                            color: #ffffff;
+                                        }
+                                        .btn1 {
+                                            background: #007cff;
+                                            margin: 0 0 0 10px;
+                                        }
+                                        .btn2 {
+                                            background: #575757;
+                                            margin-left: 10px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &:hover {
+                    .chegirmaa,
+                    .heart-ic {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#cardM {
+    padding-right: 0;
+    .modal-dialog {
+        max-width: 800px !important;
+        margin-top: 4.75rem;
+        .modal-header {
+            padding: 1rem 1rem 0 1rem !important;
+            button {
+                border: none;
+                outline: none;
+            }
+            border: none;
+        }
+        .modal-body {
+            padding-bottom: 1.5rem !important;
+            .first-section {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .row {
+                    // margin-top: 30px;
+                    .col-4 {
+                        cursor: pointer;
+                        border-color: transparent !important;
+                        &:hover {
+                            border-color: #A5A5A5 !important;
+                        }
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .title {
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 28px;
+                display: flex;
+                justify-content: start !important;
+                color: black !important;
+            }
+            .about {
+                display: flex;
+                .content {
+                    padding: 10px !important;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: #868686;
+                    background: #ededed;
+                    margin: 10px 5px;
+                    &:first-child {
+                        margin-left: 0px;
+                    }
+                    &:last-child {
+                        margin-right: 0px;
+                    }
+                    div {
+                        font-weight: bold;
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #000000;
+                    }
+                }
+            }
+            .description {
+                font-size: 16px;
+                line-height: 24px;
+                /* or 150% */
+                color: #868686;
+                width: 88%;
+            }
+            .price {
+                margin: 15px 0;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 28px;
+                color: #000000;
+                span {
+                    font-size: 16px;
+                    line-height: 19px;
+                    /* identical to box height */
+                    text-decoration-line: line-through;
+                    color: #a5a5a5;
+                }
+            }
+            .m-footer {
+                display: flex;
+                .myform {
+                    display: flex;
+                    button,
+                    input {
+                        width: 40px;
+                        height: 40px;
+                        margin: 0 !important;
+                        border: none;
+                        outline: none;
+                        background: #e3e3e3;
+                        text-align: center;
+                        font-size: 16px;
+                        line-height: 19px;
+                    }
+                }
+                .btn1,
+                .btn2 {
+                    height: 40px;
+                    padding: 10px;
+                    border-radius: 0;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 19px;
+                    color: #ffffff;
+                }
+                .btn1 {
+                    background: #007cff;
+                    margin: 0 0 0 10px;
+                }
+                .btn2 {
+                    background: #575757;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .selected-products {
+        max-width: 84vw !important;
+        .tafsiya {
+            .colcha {
+                width: 23.5%;
+                .card {
+                    .card-body {
+                        .name {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .selected-products {
+        max-width: 94vw !important;
+        .tafsiya {
+            .colcha {
+                width: 31.9%;
+                .card {
+                    .card-body {
+                        .name {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// @media (max-width: 991px) {
+//     .selected-products {
+//         max-width: 94vw !important;
+//     }
+// }
+@media (min-width: 768px) and (max-width: 991px) {
+    .selected-products {
+        .tafsiya {
+            .title {
+                margin-right: -15px;
+            }
+            .col-sm-12 {
+                padding-right: 0 !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .selected-products {
+        .tafsiya {
+            .title {
+                justify-content: center;
+            }
+            .colcha {
+                padding-right: 0 !important;
+                margin: 0px !important;
+                width: 100% !important;
+                .card {
+                    margin: 0 !important;
+                    // width: 70%;
+                }
+            }
+        }
+        #cardM {
+            padding-right: 0;
+            .modal-dialog {
+                max-width: 800px !important;
+                margin-top: 4.75rem;
+                .modal-header {
+                    padding: 1rem 1rem 0 1rem !important;
+                    button {
+                        border: none;
+                        outline: none;
+                    }
+                    border: none;
+                }
+                .modal-body {
+                    padding-bottom: 1.5rem !important;
+                    .first-section {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .row {
+                            // margin-top: 30px;
+                            .col-4 {
+                                cursor: pointer;
+                                border-color: transparent !important;
+                                &:hover {
+                                    border-color: #A5A5A5 !important;
+                                }
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                    .title {
+                        font-weight: 500;
+                        font-size: 22px;
+                        line-height: 28px;
+                        display: flex;
+                        justify-content: start !important;
+                        color: black !important;
+                    }
+                    .about {
+                        display: block;
+                        .content {
+                            padding: 10px !important;
+                            font-size: 12px;
+                            line-height: 14px;
+                            color: #868686;
+                            background: #ededed;
+                            margin: 0 !important;
+                            &:first-child {
+                                margin-left: 0px;
+                            }
+                            &:last-child {
+                                margin-right: 0px;
+                            }
+                            div {
+                                font-weight: bold;
+                                font-size: 14px;
+                                line-height: 16px;
+                                color: #000000;
+                            }
+                        }
+                    }
+                    .description {
+                        font-size: 16px;
+                        line-height: 24px;
+                        /* or 150% */
+                        color: #868686;
+                        width: 88%;
+                    }
+                    .price {
+                        margin: 15px 0;
+                        font-weight: 900;
+                        font-size: 24px;
+                        line-height: 28px;
+                        color: #000000;
+                        span {
+                            font-size: 16px;
+                            line-height: 19px;
+                            /* identical to box height */
+                            text-decoration-line: line-through;
+                            color: #a5a5a5;
+                        }
+                    }
+                    .m-footer {
+                        display: block;
+                        .myform {
+                            display: block;
+                            button,
+                            input {
+                                width: 40px;
+                                height: 40px;
+                                margin: 0 !important;
+                                border: none;
+                                outline: none;
+                                background: #e3e3e3;
+                                text-align: center;
+                                font-size: 16px;
+                                line-height: 19px;
+                            }
+                        }
+                        .btn1,
+                        .btn2 {
+                            height: 50px;
+                            padding: 10px;
+                            border-radius: 0;
+                            font-weight: 300;
+                            font-size: 10px;
+                            line-height: 19px;
+                            color: #ffffff;
+                        }
+                        .btn1 {
+                            background: #007cff;
+                            margin: 0 0 0 10px;
+                        }
+                        .btn2 {
+                            background: #575757;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:500px) and (max-width:700px) {
+    .selected-products {
+        .tafsiya {
+            .title {
+                justify-content: center;
+            }
+            .colcha {
+                width: 50%;
+                .card {
+                    .otaa {
+                        .img-w {
+                            width: 100% !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+    .selected-products {
+        .tafsiya {
+            .title {
+                justify-content: center;
+            }
+        }
+        #cardM {
+            .modal-dialog {
+                margin: 1.75rem auto !important;
+                .modal-body {
+                    .first-section {
+                        .main-img {
+                            width: 90%;
+                            margin: 0 auto;
+                        }
+                    }
+                    .m-footer {
+                        .btn1,
+                        .btn2 {
+                            font-size: 10px !important;
+                            font-weight: 300 !important;
+                        }
+                    }
+                    .col-sm-12 {
+                        .about {
+                            margin: 0 !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+    .selected-products {
+        .tafsiya {
+            .col-sm-12 {
+                .card {
+                    width: 100%;
+                }
+            }
+        }
+        #cardM {
+            padding-right: 0;
+            .modal-dialog {
+                max-width: 800px !important;
+                margin-top: 4.75rem;
+                .modal-header {
+                    padding: 1rem 1rem 0 1rem !important;
+                    button {
+                        border: none;
+                        outline: none;
+                    }
+                    border: none;
+                }
+                .modal-body {
+                    padding-bottom: 1.5rem !important;
+                    .first-section {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .row {
+                            // margin-top: 30px;
+                            .col-4 {
+                                cursor: pointer;
+                                border-color: transparent !important;
+                                &:hover {
+                                    border-color: #A5A5A5 !important;
+                                }
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                    .title {
+                        font-weight: 500;
+                        font-size: 22px;
+                        line-height: 28px;
+                        display: flex;
+                        justify-content: start !important;
+                        color: black !important;
+                    }
+                    .about {
+                        display: block;
+                        .content {
+                            padding: 10px !important;
+                            font-size: 12px;
+                            line-height: 14px;
+                            color: #868686;
+                            background: #ededed;
+                            margin: 0 !important;
+                            &:first-child {
+                                margin-left: 0px;
+                            }
+                            &:last-child {
+                                margin-right: 0px;
+                            }
+                            div {
+                                font-weight: bold;
+                                font-size: 14px;
+                                line-height: 16px;
+                                color: #000000;
+                            }
+                        }
+                    }
+                    .description {
+                        font-size: 16px;
+                        line-height: 24px;
+                        /* or 150% */
+                        color: #868686;
+                        width: 88%;
+                    }
+                    .price {
+                        margin: 15px 0;
+                        font-weight: 900;
+                        font-size: 24px;
+                        line-height: 28px;
+                        color: #000000;
+                        span {
+                            font-size: 16px;
+                            line-height: 19px;
+                            /* identical to box height */
+                            text-decoration-line: line-through;
+                            color: #a5a5a5;
+                        }
+                    }
+                    .m-footer {
+                        display: block;
+                        .myform {
+                            display: block;
+                            button,
+                            input {
+                                width: 40px;
+                                height: 40px;
+                                margin: 0 !important;
+                                border: none;
+                                outline: none;
+                                background: #e3e3e3;
+                                text-align: center;
+                                font-size: 16px;
+                                line-height: 19px;
+                            }
+                        }
+                        .btn1,
+                        .btn2 {
+                            height: 50px;
+                            padding: 10px;
+                            border-radius: 0;
+                            font-weight: 300;
+                            font-size: 10px;
+                            line-height: 19px;
+                            color: #ffffff;
+                        }
+                        .btn1 {
+                            background: #007cff;
+                            margin: 0 0 0 10px;
+                        }
+                        .btn2 {
+                            background: #575757;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// modal
+@media (min-width: 768px) {
+    .selected-products {
+        #cardM {
+            padding-right: 0;
+            .modal-dialog {
+                max-width: 800px !important;
+                margin-top: 4.75rem;
+                .modal-header {
+                    padding: 1rem 1rem 0 1rem !important;
+                    button {
+                        border: none;
+                        outline: none;
+                    }
+                    border: none;
+                }
+                .modal-body {
+                    padding-bottom: 1.5rem !important;
+                    .first-section {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .row {
+                            // margin-top: 30px;
+                            .col-4 {
+                                cursor: pointer;
+                                border-color: transparent !important;
+                                &:hover {
+                                    border-color: #A5A5A5 !important;
+                                }
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                    .title {
+                        font-weight: 500;
+                        font-size: 22px;
+                        line-height: 28px;
+                        display: flex;
+                        justify-content: start !important;
+                        color: black !important;
+                    }
+                    .about {
+                        display: block;
+                        .content {
+                            padding: 10px !important;
+                            font-size: 12px;
+                            line-height: 14px;
+                            color: #868686;
+                            background: #ededed;
+                            margin: 0 !important;
+                            &:first-child {
+                                margin-left: 0px;
+                            }
+                            &:last-child {
+                                margin-right: 0px;
+                            }
+                            div {
+                                font-weight: bold;
+                                font-size: 14px;
+                                line-height: 16px;
+                                color: #000000;
+                            }
+                        }
+                    }
+                    .description {
+                        font-size: 16px;
+                        line-height: 24px;
+                        /* or 150% */
+                        color: #868686;
+                        width: 88%;
+                    }
+                    .price {
+                        margin: 15px 0;
+                        font-weight: 900;
+                        font-size: 24px;
+                        line-height: 28px;
+                        color: #000000;
+                        span {
+                            font-size: 16px;
+                            line-height: 19px;
+                            /* identical to box height */
+                            text-decoration-line: line-through;
+                            color: #a5a5a5;
+                        }
+                    }
+                    .m-footer {
+                        display: block;
+                        .myform {
+                            display: block;
+                            button,
+                            input {
+                                width: 40px;
+                                height: 40px;
+                                margin: 0 !important;
+                                border: none;
+                                outline: none;
+                                background: #e3e3e3;
+                                text-align: center;
+                                font-size: 16px;
+                                line-height: 19px;
+                            }
+                        }
+                        .btn1,
+                        .btn2 {
+                            height: 50px;
+                            padding: 10px;
+                            border-radius: 0;
+                            font-weight: 300;
+                            font-size: 10px;
+                            line-height: 19px;
+                            color: #ffffff;
+                        }
+                        .btn1 {
+                            background: #007cff;
+                            margin: 0 0 0 10px;
+                        }
+                        .btn2 {
+                            background: #575757;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .selected-products {
+        .tafsiya {
+            .card {
+                .c-footer {
+                    .cartt {
+                        #cardM {
+                            .modal-dialog {
+                                margin: 1.75rem auto !important;
+                                .modal-body {
+                                    .first-section {
+                                        .main-img {
+                                            width: 90%;
+                                            margin: 0 auto;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .title-form {
+                form {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 498px) {
+    .selected-products {
+        .tafsiya {
+            .card {
+                .c-footer {
+                    .cartt {
+                        #cardM {
+                            .modal-dialog {
+                                margin: 0.75rem auto !important;
+                                .modal-body {
+                                    .m-footer {
+                                        flex-wrap: wrap;
+                                        .btn1 {
+                                            display: block;
+                                            width: 68%;
+                                            margin: 0 0 0 10px;
+                                        }
+                                        .btn2 {
+                                            width: 100%;
+                                            margin-top: 10px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .selected-products {
+        .tafsiya {
+            .card {
+                .c-footer {
+                    .cartt {
+                        #cardM {
+                            .modal-dialog {
+                                .modal-body {
+                                    .about {
+                                        .content {
+                                            div {
+                                                font-size: 12px;
+                                            }
+                                        }
+                                    }
+                                    .description {
+                                        width: 96%;
+                                    }
+                                    .m-footer {
+                                        position: relative;
+                                        .btn1 {
+                                            position: absolute;
+                                            top: 0;
+                                            right: 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 434px) {
+    .selected-products {
+        .tafsiya {
+            .card {
+                .c-footer {
+                    .cartt {
+                        #cardM {
+                            .modal-dialog {
+                                .modal-body {
+                                    .about {
+                                        .content {
+                                            padding: 5px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 422px) {
+    .selected-products {
+        .tafsiya {
+            .card {
+                .c-footer {
+                    .cartt {
+                        #cardM {
+                            .modal-dialog {
+                                .modal-body {
+                                    .about {
+                                        flex-wrap: wrap;
+                                        .content {
+                                            margin: 3px 3px;
+                                        }
+                                    }
+                                    .m-footer {
+                                        position: relative;
+                                        .myform {
+                                            width: 31%;
+                                        }
+                                        .btn1 {
+                                            width: 66%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 382px) {
+    .selected-products {
+        .tafsiya {
+            .card {
+                .c-footer {
+                    .cartt {
+                        #cardM {
+                            .modal-dialog {
+                                .modal-body {
+                                    .title {
+                                        font-size: 20px;
+                                    }
+                                    .stars {
+                                        margin-bottom: 5px;
+                                    }
+                                    .about {
+                                        .content {
+                                            &:last-child {
+                                                margin: 0;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+///header title
+@media (max-width: 358px) {
+    .aboutP {
+        .title2 {
+            font-size: 22px;
+        }
+    }
+}
